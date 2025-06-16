@@ -7,7 +7,7 @@ form.addEventListener('submit', async (event) => {
   const formData = {
     name: document.getElementById('name').value,
     email: document.getElementById('email').value,
-    num_guests: document.getElementById('num_guests').value,
+    num_guests: document.getElementById('num-guests').value,
     diet: document.getElementById('diet').value
   };
 
