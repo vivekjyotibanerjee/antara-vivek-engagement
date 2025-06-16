@@ -1,4 +1,4 @@
-const form = document.getElementById('contact-form');
+const form = document.getElementById('rsvp-form');
 const responseMessage = document.getElementById('response-message');
 
 form.addEventListener('submit', async (event) => {
