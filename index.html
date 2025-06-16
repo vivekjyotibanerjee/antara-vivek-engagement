@@ -408,19 +408,19 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
+								<input type="name" class="form-control" id="name" placeholder="Name" required>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
+								<input type="email" class="form-control" id="email" placeholder="Email" required>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
-								<label for="num-guests" class="sr-only">Additional guests</label>
-								<input type="number" class="form-control" id="num-guests" placeholder="0">
+								<label for="num_guests" class="sr-only">Additional guests</label>
+								<input type="number" class="form-control" id="num_guests" placeholder="0">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -433,6 +433,8 @@
 							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
 						</div>
 					</form>
+
+					<p id="response-message"></p>
 				</div>
 			</div>
 		</div>
@@ -575,6 +577,8 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 
+	<!-- Form submission script-->
+	<script src="js/form_submission.js"></script>
 	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
