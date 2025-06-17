@@ -1,5 +1,5 @@
 const form = document.getElementById('rsvp-form');
-const responseMessage = document.getElementById('response-message');
+const responseMessage = document.getElementById('submit-btn-txt');
 
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
@@ -18,7 +18,7 @@ form.addEventListener('submit', async (event) => {
     });
 
     if (response.ok) {
-      responseMessage.textContent = 'Thank you! Your message has been sent.';
+      responseMessage.textContent = 'Thank you! ';
       form.reset();
     } else {
       responseMessage.textContent = 'Error submitting the form. Please try again.';
