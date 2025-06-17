@@ -18,10 +18,10 @@ form.addEventListener('submit', async (event) => {
     });
 
     if (response.ok) {
-      responseMessage.textContent = 'Thank you! ';
-      form.reset();
+        form.reset();
+        responseMessage.textContent = 'Thank you! ';
     } else {
-      responseMessage.textContent = 'Error submitting the form. Please try again.';
+        responseMessage.textContent = 'Error submitting the form. Please try again.';
     }
   } catch (error) {
     responseMessage.textContent = 'An error occurred. Please try again.';
