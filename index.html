@@ -145,8 +145,9 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span style="color: #F14E95;">Our Event on the Catherine Marie</span>
-					<h2>Annapolis Charter Dock</h2>
-					<h2></h2>
+					<h2>Parking for Annapolis</h2>
+					<h2>Charter Dock</h2>
+					<!-- <span style="color: #F14E95;">Garage Information</span> -->
 				</div>
 			</div>
 			<div class="row">
@@ -155,34 +156,27 @@
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
-									<h3>Arrival &amp; Boarding</h3>
+									<h3>Arrival &amp; Parking</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
+										<span>4:15 PM</span>
 										<span>4:45 PM</span>
-										<span>5:00 PM</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-map"></i>
-										<span>Annapolis</span>
-										<span>Charter Dock</span>
+										<span>Gott's Court</span>
+										<span>Garage</span>
 									</div>
-									<p>Please allow yourself enough time to park and take the shuttle from the garage to the dock. The boat will be docked for 1hr 15mins, and will leave the dock at 6pm sharp.</p>
+									<p>Please allow yourself enough time to park and take the shuttle from the garage to the dock. The yacht will be docked for 1hr 15mins, but planned events start at 5pm. yacht departs at 6pm sharp.<br /></p> <!--Stop reading my html, I'm an mle. Get outta here... Nikos and Bryan.-->
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
-									<h3>Disembark &amp; Clean-up</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>8:45 PM</span>
-										<span>9:00 PM</span>
+									<h3>Parking Garage Details</h3>
+									<div>
+										<span><b>25 Northwest Street Annapolis, MD 21401</b></span>
 									</div>
-									<div class="event-col">
-										<i class="icon-map"></i>
-										<span>Annapolis</span>
-										<span>Charter Dock</span>
-									</div>
-									<p>We will disembark at our starting location. We are responsible for our clean-up. Please leave any trash in the trashcans before exiting.<br /><br /></p>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.5948966107717!2d-76.4947917!3d38.9789172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7f650f987e453%3A0xf6a00fc309e3e73e!2s25%20Northwest%20St%2C%20Annapolis%2C%20MD%2021401!5e0!3m2!1sen!2sus!4v1750217504333!5m2!1sen!2sus" width="300" height="234" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								</div>
 							</div>
 						</div>
@@ -212,7 +206,7 @@
 									<span class="date">4:45pm - 5pm</span>
 								</div>
 								<div class="timeline-body">
-									<p>insert parking + any shuttle service info here, make your own flower bouquet, bangles and hairpin decor</p>
+									<p>Park at garage and take a shuttle to the dock. The yacht will be by the dock-side till 6pm, but events start at 5pm!</p>
 								</div>
 							</div>
 						</li>
@@ -220,11 +214,11 @@
 							<div class="timeline-badge" style="background-image:url(images/engagement-rings.JPG);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Yacht Departs, Engagement Ceremony</h3>
+									<h3 class="timeline-title">Engagement Ceremony</h3>
 									<span class="date">5pm - 6pm</span>
 								</div>
 								<div class="timeline-body">
-									<p>Welcome introductions, speeches, party games, music.</p>
+									<p>Welcome introductions, music/dance performances, jewelry and bagles bazaar, make-your-own bouquette.</p>
 								</div>
 							</div>
 						</li>
@@ -232,8 +226,8 @@
 							<div class="timeline-badge" style="background-image:url(images/food.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Dinner</h3>
-									<span class="date">6pm - 7pm</span>
+									<h3 class="timeline-title">Yacht Departs, Dinner</h3>
+									<span class="date">6pm - 7:30pm</span>
 								</div>
 								<div class="timeline-body">
 									<p>Vegetarian and non-vegetarian options available. Open bar and non-alcoholic drinks available throughout the charter.</p>
@@ -244,8 +238,8 @@
 							<div class="timeline-badge" style="background-image:url(images/nyc.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Open Dance Floor</h3>
-									<span class="date">7pm - 9pm</span>
+									<h3 class="timeline-title">Speeches and Open Dance Floor</h3>
+									<span class="date">7:30pm - 9pm</span>
 								</div>
 								<div class="timeline-body">
 									<p>Go hard, get evicted.</p>
@@ -354,10 +348,34 @@
 								</div>
 							</div>
 						</div>
+
+						<div class="row animate-box">
+							<div class="col-md-4 col-sm-4">
+								<div class="form-group form-control col-sm-3" style="display: flex; align-items:center;">
+									<input type="checkbox" id="need-parking" onchange="toggleTextbox()">
+									<div class="col-md-8" >
+										<span for="need-parking">Need parking?</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4" >
+								<input type="text" style="display:none" class="form-control" id="license-plate" placeholder="License Plate">
+							</div>
+						</div>
 						
 						<div class="row animate-box">
 							<div class="col-md-4 col-sm-4 col-md-offset-2">
-								<button type="submit" class="btn btn-default btn-block" id="submit-btn-txt">I am Attending</button>
+								<button type="submit" class="btn btn-default btn-block" id="submit-btn-txt">
+									<span class="submit-btn-span" style="z-index: 1;">I am Attending</span>
+								</button>
+
+								<script>
+									const submit_btn = document.querySelector(".submit-btn-span");
+
+									submit_btn.addEventListener("click", () => {
+										submit_btn.classList.add("button--loading");
+									});
+								</script>
 							</div>
 						</div>
 					</form>
@@ -670,6 +688,22 @@
         day: d.getDate(),
         enableUtc: false
     });
+
+	function toggleTextbox() {
+		// Get the checkbox
+		var checkBox = document.getElementById("need-parking");
+		// Get the output text
+		var text = document.getElementById("license-plate");
+
+		// If the checkbox is checked, display the output text
+		if (checkBox.checked == true){
+			text.style.display = "block";
+		} else {
+			text.style.display = "none";
+		}
+		text.required = checkBox.checked;
+	}
+
 </script>
 
 	</body>
