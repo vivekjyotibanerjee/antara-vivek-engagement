@@ -139,7 +139,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/catherine-marie-4k.jpg);">
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/sailing-in-annapolis-crop.jpg);">
 		<div class="overlay" id="trip-details"></div>
 		<div class="container">
 			<div class="row">
@@ -155,28 +155,28 @@
 					<div class="display-tc">
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
+								<div class="event-wrap animate-box" style="background-color: rgba(71, 71, 71, 0.555);">
 									<h3>Arrival &amp; Parking</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>4:15 PM</span>
-										<span>4:45 PM</span>
+										<span>4:30 PM</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-map"></i>
-										<span>Gott's Court</span>
-										<span>Garage</span>
+										<span><a href="https://www.visitannapolis.org/listing/knighton-garage/1629/">Knighton</a></span>
+										<span><a href="https://www.visitannapolis.org/listing/knighton-garage/1629/">Garage</a></span>
 									</div>
-									<p>Please allow yourself enough time to park and take the shuttle from the garage to the dock. The yacht will be docked for 1hr 15mins, but planned events start at 5pm. yacht departs at 6pm sharp.<br /></p> <!--Stop reading my html, I'm an mle. Get outta here... Nikos and Bryan.-->
+									<p>Allow enough time to park and take the shuttle (11 mins) or walk (19 mins) to the dock. Use the <a href="https://accessannapolis.transloc.com/routes/1/stops">shuttle tracker</a> or Google Maps for live updates. Include your email, phone, and license plate in the RSVP so we can reserve parking on your behalf.</p>
+									<!-- <p>Please allow enough time to park and take the shuttle from the garage to the dock. Use the <a href="https://accessannapolis.transloc.com/routes/1/stops">shuttle tracker</a> or Google Maps for live shuttle tracking. The garage is a 19-min walk from the dock. Include your email, phone, and license plate in the RSVP so we can reserve parking for you.</p> Stop reading my html, I'm an mle. Get outta here... Nikos and Bryan. -->
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
+								<div class="event-wrap animate-box" style="background-color: rgba(71, 71, 71, 0.555);">
 									<h3>Parking Garage Details</h3>
 									<div>
-										<span><b>25 Northwest Street Annapolis, MD 21401</b></span>
+										<span><b> 1A Colonial Ave Annapolis, MD 21401</b></span>
 									</div>
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.5948966107717!2d-76.4947917!3d38.9789172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7f650f987e453%3A0xf6a00fc309e3e73e!2s25%20Northwest%20St%2C%20Annapolis%2C%20MD%2021401!5e0!3m2!1sen!2sus!4v1750217504333!5m2!1sen!2sus" width="300" height="234" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.6801149984713!2d-76.50234832257885!3d38.97697167170721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7f659cc9629f1%3A0x5ac77ef7d55d6cd3!2s1a%20Colonial%20Ave%2C%20Annapolis%2C%20MD%2021401!5e0!3m2!1sen!2sus!4v1750296308147!5m2!1sen!2sus" width="300" height="260" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								</div>
 							</div>
 						</div>
@@ -218,7 +218,7 @@
 									<span class="date">5pm - 6pm</span>
 								</div>
 								<div class="timeline-body">
-									<p>Welcome introductions, music/dance performances, jewelry and bagles bazaar, make-your-own bouquette.</p>
+									<p>Welcome introductions, music/dance performances, and other activities.</p>
 								</div>
 							</div>
 						</li>
@@ -322,18 +322,34 @@
 						<div class="row animate-box">
 							<div class="col-md-4 col-sm-4">
 								<div class="form-group">
-									<label for="name" class="sr-only">Name</label>
-									<input type="name" class="form-control" id="name" placeholder="Name" required>
+									<label for="name" class="sr-only">First Name</label>
+									<input type="name" class="form-control" id="first-name" placeholder="First Name" required>
 								</div>
 							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="form-group">
+									<label for="name" class="sr-only">Last Name</label>
+									<input type="name" class="form-control" id="last-name" placeholder="Last Name" required>
+								</div>
+							</div>
+						</div>
+
+						<div class="row animate-box">
 							<div class="col-md-4 col-sm-4">
 								<div class="form-group">
 									<label for="email" class="sr-only">Email</label>
 									<input type="email" class="form-control" id="email" placeholder="Email" required>
 								</div>
 							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="form-group">
+									<label for="name" class="sr-only">Phone Number</label>
+									<input type="tel" class="form-control" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555" required>
+								</div>
+							</div>
 						</div>
 
+						
 						<div class="row animate-box">
 							<div class="col-md-4 col-sm-4">
 								<div class="form-group">
